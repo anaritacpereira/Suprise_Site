@@ -1,0 +1,141 @@
+body{
+    margin: 0%;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header > p{
+    margin: 0%;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+h1{
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+}
+
+nav > a{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 0px -2px;
+    transition-duration: 0.75s;
+}
+
+
+nav > a:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.75s;
+}
+
+nav > a > span{
+    font-size: 10px;
+    color: rgb(125, 125, 125);
+    display: none;
+}
+
+nav > a:hover > span{
+    display: inline;
+}
+
+main{
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px 0px;
+    margin: 5px;
+}
+
+h3{
+    color: white;
+}
+
+div > div{
+    background-color: rgb(120, 0, 0);
+    margin: 10px;
+}
+
+.surpresa{
+    border: 1px solid white;
+    display: inline-block;
+    margin: 15px;
+    width: 150px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.surpresa > img{
+    width: 150px;
+    height: 180px;
+    display: none;
+}
+
+.surpresa > h3{
+    color: white;
+    text-align: center;
+}
+
+.surpresa:hover  h3{
+    color: black;    
+}
+
+.surpresa:hover > img{
+    display: block;
+}
+
+.surpresa:hover{
+    color: black;
+    background-color: white;
+}
+
+.desconto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    padding: 20px 0px;
+    background-color: white;
+    width: 150px;
+    height: 20px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.desconto > span{
+    display: none;
+}
+
+.surpresa:hover ~ .desconto > span{
+    display: inline;
+}
+
+.quem{
+    background-color: lightgray;
+}
+
+
+.quem > div{
+    background-color: lightgray;
+    color: white;
+    text-align: justify;
+}
+
+footer{
+    margin: 0%;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
